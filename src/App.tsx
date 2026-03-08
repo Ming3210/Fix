@@ -268,7 +268,7 @@ export default function App() {
         {/* Right Column: Rituals List */}
         <div className="lg:col-span-2 flex flex-col gap-4">
           <div className="flex items-center justify-between mb-2">
-            <h2 className="text-xl">Canh tác Hào Quang</h2>
+            <h2 className="text-xl">Canh tác Hào Quang 2</h2>
             <button
               onClick={() => {
                 if (confirm('Bạn có muốn reset về mặc định?')) {
