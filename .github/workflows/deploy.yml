@@ -21,6 +21,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             cd ~/Fix
+            git reset --hard
             git pull origin main
             docker build -t react-app .
             docker stop react-container || true
